@@ -15,3 +15,6 @@ Reviewer Agent (审计层)： 对执行结果进行多维度逻辑审查。
 长链路推理： 支持超过 10 轮的 Agent 深度交互，确保任务完成质量。
 多 Agent 协同： 模拟真实团队工作流，实现角色化分工。
 高频 Token 消耗： 由于涉及多轮迭代与自我修正，系统在生产环境下具有极高的 Token 吞吐需求。
+git clone https://github.com/tqzbceb/agent.git
+pip install -r requirements.txt
+python main.py
